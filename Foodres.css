@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-food a {
+    text-decoration: none;
+    color: rgb(15, 14, 14);
+    font-weight: bold;
+
+}
+
+.nav-food a:hover {
+    color: orangered;
+}
+
+.nav-food {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.img-food {
+    position: absolute;
+}
+
+.img-food img {
+    width: 100rem;
+    height: 40rem;
+    margin-top: -5rem;
+}
+
+.nav-food {
+    position: relative;
+    color: red;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: initial;
+    font-family: serif;
+}
+
+.paragraph p {
+    margin-top: 1rem;
+    color: white;
+    margin-left: -50rem;
+    position: relative;
+    color: red;
+
+
+}
+
+span {
+    margin-top: 20rem;
+    color: white;
+    margin-left: -10rem;
+    position: relative;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    padding: 1rem;
+    border: none;
+    border-radius: 2%;
+    margin-left: -50rem;
+    font-weight: bold;
+
+}
+
+.paragraph h3 {
+    margin-right: 45rem;
+    margin-top: 7rem;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.Fooddata img {
+    width: 20rem;
+    height: 15rem;
+
+
+
+}
+
+.Fooddata {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    margin-top: 3rem;
+}
+
+
+
+
+.ProductYY-cart-img {
+    transition: 0.5s ease;
+
+}
+
+.ProductYY-cart-img:hover {
+    transform: scale(1.1);
+    filter: grayscale(30%);
+    /* box-shadow: 2px 3px 10px 3px blue; */
+
+
+}
+
+.borderF {
+    border: 1px solid white;
+    box-shadow: 2px 3px 10px 3px black;
+
+}
+.Shows{
+    border: 1px solid white;
+    box-shadow: 2px 3px 10px 3px black;
+   
+}
+.ProductApiYY-cart:hover{
+    box-shadow: 2px 3px 10px 10px blue;
+ 
+
+}
+.ProductApiYY-cart{
+    transition: 0.5s ease;
+
+}
+.ProductApiYY-cart-rate{
+    
+}
+.NavS{
+    display: flex;
+ 
+    justify-content: space-evenly;
+    margin-left: -5rem;
+   align-items: last baseline;
+    list-style: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+}
+.chiz button{
+background-color: red;
+margin-top: 4rem;
+margin-left: 1rem;
+float: left;
+}
+.NavS h1{
+
+background-color: black;
+color: red;
+font-weight: bold;
+}
+.chiz button:hover{
+    background-color: green;
+}
+.Sliderss{
+    margin-top: 8rem;
+
+}
+.Sliderss img{
+    height: 40rem;
+}
+.chizzz{
+    background-color: blue;
+}
+.emojiiii{
+    /* border: 1px solid black; */
+    margin: 7rem 0rem;
+    padding: 1rem 4rem;
+    padding-top: 0rem;
+    padding-bottom: -2rem;
+    border: 1px solid white;
+    box-shadow: 2px 3px 10px 3px black;
+}
+.NavS:hover{
+    cursor: pointer;
+
+}
